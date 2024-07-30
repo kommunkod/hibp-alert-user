@@ -123,9 +123,6 @@ func main() {
 	emailBody = strings.ReplaceAll(emailBody, "{{previous_breaches_text}}", previousBreachesText)
 
 	for user, breaches := range notifyUsers {
-		if user != "lars@scheibling.se" {
-			continue
-		}
 		body := string(emailBody)
 
 		newBreachRows := ""

@@ -88,3 +88,8 @@ Notifies users when their details have been in a data breach based on the HIBP A
 | `{{username}}` | The email of the user that was in the breach | `user@domain.com` | HIBP API |
 | `{{new_breach_rows}}` | The list of new breaches that the user was in | `<tr><td>BreachA</td><td>Link to BreachA</td></tr>` | HIBP API |
 | `{{previous_breaches_rows}}` | The list of previous breaches that the user was in | `<tr><td>BreachA</td><td>Link to BreachA</td></tr>` | HIBP API |
+
+## Default email image
+This is the default image. You can change it by replacing the email_template.html with your own version.
+
+![Email Image](./image.png)
