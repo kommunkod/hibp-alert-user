@@ -31,7 +31,11 @@ archives:
     format_overrides:
       - goos: windows
         format: zip
-    
+    files:
+      - email_template.html
+      - config.example.json
+      - README.md
+      
 release:
   extra_files:
     - glob: email_template.html
