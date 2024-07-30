@@ -1,0 +1,53 @@
+{
+    "hibpApiKey": "",
+    "domains": [
+        "domain.com"
+    ],
+
+    "latestBreach": "VTech",
+    "notifiedBreaches": [
+        "Spytech",
+        "Adobe",
+        "Badoo",
+        "Kickstarter",
+        "MyFitnessPal"
+    ],
+
+    "smtp": {
+        "sender": "mailer@domain.com",
+        "host": "smtp.domain.com",
+        "port": 25,
+        "secure": false,
+        "starttls": true,
+        "user": "username",
+        "pass": "password"
+    },
+
+    "ignore": {
+        "unverified": false,
+        "fabricated": false,
+        "sensitive": false,
+        "retired": false,
+        "spamList": false,
+        "malware": false
+    },
+    
+    "email": {
+        "colors": {
+            "background": "#ff8000",
+            "text": "#ffffff"
+        },
+        "subject": "Your account might have been compromised",
+        "body": {
+            "header": "Your account might have been compromised",
+            "texts": [
+                "In a recent scan, we found that your email address was mentioned in a recent breach of user information.",
+                "This does not necessarily mean that your password has been compromised, but for security reasons we do recommend that you change it.",
+                "For more information about the breach, click one of the links next to the relevant breaches below."
+            ],
+            "previous_breach_texts": [
+                "Your account has also been in previous, older breaches. You can find a complete list below."
+            ]
+        }
+    }
+}
